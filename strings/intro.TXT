@@ -1,0 +1,31 @@
+/*
+The string.h library in C provides a variety of functions for manipulating strings (arrays of characters).
+strcpy(jarvitoreCopy, jakeCopy);
+strncpy(destinatino,  src, size_t n); n number char por jonto copy hobe
+                                     jodi src er teke n boro hoi, tahole baki ongseh null bos be
+Concatenate
+strcat(jar_ses_e_add_kor_bo, jake add kor bo);
+strncat(dest, src, size_t n); Description: Appends up to n characters from src to the end of dest.
+
+size_t strlen(string); Returns the length of the string str (excluding the null-terminator \0).
+
+
+char *strncat(char *dest, const char *src, size_t n);
+Description: Appends up to n characters from src to the end of dest.
+
+strcmp(str1, str2);
+*Returns 0 if they are equal
+*Returns negative value if str1 is less than str2,
+*Returns positive value if str1 is greater than str2.
+
+
+strncmp(const char *str1, const char *str2, size_t n);
+Description: Compares up to n characters of str1 and str2.
+
+
+strchr()
+char *strchr(const char *str, int c);
+char *strrchr(const char *str, int c);
+Description: Searches for the last occurrence of the character c in the string str.
+
+*/
